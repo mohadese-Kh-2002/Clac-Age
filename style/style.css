@@ -1,0 +1,90 @@
+@import url('reset.css');
+@import url('font.css');
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*{
+    border: none;
+    outline: none;
+}
+body{
+    font-size: 1.6rem;
+    font-family: 'poppins';
+    background-color: #fefefe;
+    height: 100vh;
+    padding: 2rem;
+
+}
+
+.Clac-age,
+.wrapper-Clac-age__input,
+.age{
+    box-shadow: 0 0 .5rem rgba(0,0,0,.3);
+    border-radius: .8rem;
+    -webkit-border-radius: .8rem;
+    -moz-border-radius: .8rem;
+    -ms-border-radius: .8rem;
+    -o-border-radius: .8rem;
+}
+.Clac-age{
+    max-width: 50rem;
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    z-index: 100;
+}
+.age-calc__content{
+    padding: 1.5rem;
+    height: 100%;
+}
+.Calc-age__title{
+    font-weight: 700;
+    font-size: 4rem;
+    margin-bottom: 3rem;
+    color: #3a364b;
+    text-align: center;
+
+}
+.Clac-age__form{
+    gap: 1.5rem;
+    width: 100%;
+}
+.wrapper-Clac-age__input{
+    padding: 0 1rem;
+    width: 70%;
+}
+.Clac-age__input{
+    flex-basis: 70%;
+    background-color: transparent;
+    padding: 1rem 0;
+}
+.Clac-age__icon{
+    font-size: 3rem;
+    fill:  #3a364b;;
+}
+.Calc-age__submit{
+    background-color: transparent;
+    font-size: 2rem;
+    font-weight: 500;
+    background-color: #3a364b;
+    color:#fff;
+    padding: 1rem 1.5rem;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+}
+.age {
+    text-align: center;
+    border-radius: 0 0 .8rem .8rem;
+    padding: 2rem;
+    min-height: 5rem;
+    width: 100%;
+    -webkit-border-radius: 0 0 .8rem .8rem;
+    -moz-border-radius: 0 0 .8rem .8rem;
+    -ms-border-radius: 0 0 .8rem .8rem;
+    -o-border-radius: 0 0 .8rem .8rem;
+}
